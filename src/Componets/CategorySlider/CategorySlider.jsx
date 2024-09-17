@@ -44,10 +44,10 @@ const CategorySlider = () => {
   };
 
   return (
-    <div className="container mx-auto py-6 overflow-hidden  flex items-center justify-center">
+    <div className="container mx-auto py-8 overflow-hidden  flex items-center justify-center">
       <div className=" w-[85%] overflow-hidden">
         <div className=" flex justify-between items-center">
-          <h1 className=" text-3xl">What's on your mind?</h1>
+          <h1 className=" text-2xl font-bold">What's on your mind?</h1>
           <div className=" flex items-center gap-4">
             <span
               className={` bg-zinc-300 w-9 h-9 flex items-center justify-center rounded-full cursor-pointer ${
@@ -55,7 +55,7 @@ const CategorySlider = () => {
               }`}
               onClick={handelPrev}
             >
-              <FaArrowLeft className=" mt-0" />
+              <FaArrowLeft className=" mt-" />
             </span>
             <span
               className={`bg-zinc-300 w-9 h-9 flex items-center justify-center rounded-full cursor-pointer ${
@@ -78,6 +78,7 @@ const CategorySlider = () => {
             />
           ))}
         </div>
+        <hr className=" mt-4 border" />
       </div>
     </div>
   );

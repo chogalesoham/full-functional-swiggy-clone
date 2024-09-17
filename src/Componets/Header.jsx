@@ -14,17 +14,17 @@ const Header = () => {
         <div className="flex">
           <img src={SwiggyLogo} alt="logo" className=" w-20" />
           <span className=" flex items-center gap-2 justify-center">
-            <p className="text-slate-950 underline underline-offset-1">
+            <p className="text-slate-950 underline underline-offset-1 font-bold">
               {" "}
               Othor
             </p>
-            <IoIosArrowDown />
+            <IoIosArrowDown className=" mt-1 text-orange-600 text-xl" />
           </span>
         </div>
         <div className=" flex items-center justify-center gap-10">
           <a className=" flex items-center justify-center gap-2 text-lg from-neutral-700 transition ease-in-out hover:text-orange-600 cursor-pointer">
             {" "}
-            <TiShoppingBag className="  text-[20px] text-gray-800" />
+            <TiShoppingBag className=" mt-0 text-[20px] text-gray-800" />
             Swiggy Corporate
           </a>
           <a className=" flex items-center justify-center gap-2 text-lg from-neutral-700 transition ease-in-out hover:text-orange-600 cursor-pointer">
