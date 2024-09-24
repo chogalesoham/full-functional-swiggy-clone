@@ -9,7 +9,7 @@ import { TiShoppingBag } from "react-icons/ti";
 
 const Header = () => {
   return (
-    <nav className=" w-full flex items-center justify-center shadow-lg p-3  m-auto">
+    <nav className=" w-full flex items-center justify-center shadow-lg p-3  m-auto sticky top-0 z-50 bg-white">
       <div className=" w-[95%] flex items-center justify-between">
         <div className="flex">
           <img src={SwiggyLogo} alt="logo" className=" w-20" />
