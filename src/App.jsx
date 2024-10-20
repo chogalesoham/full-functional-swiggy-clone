@@ -3,6 +3,7 @@ import Header from "./Componets/Header";
 import CategorySlider from "./Componets/CategorySlider/CategorySlider";
 import TopRestaurant from "./Componets/TopRestaurant";
 import "./App.css";
+import OnlineFoodDelivery from "./Componets/OnlineFoodDelivery";
 
 const App = () => {
   const [onYourMindData, setOnYourMindData] = useState([]);
@@ -44,6 +45,7 @@ const App = () => {
       <Header />
       <CategorySlider onYourMindData={onYourMindData} />
       <TopRestaurant topRestaurantData={topRestaurantData} />
+      <OnlineFoodDelivery topRestaurantData={topRestaurantData} />
     </>
   );
 };

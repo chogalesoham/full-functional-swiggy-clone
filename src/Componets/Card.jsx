@@ -10,7 +10,7 @@ const Card = ({ restaranntData }) => {
     name,
     locality,
   } = restaranntData.info;
-  console.log(restaranntData);
+  console.log("111111111111111111111111111111111111111", restaranntData.info);
 
   return (
     <div className=" min-h-[273px]  min-w-[284px] shadow-xl px-2 py-4 rounded-2xl relative ">
